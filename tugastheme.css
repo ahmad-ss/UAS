@@ -1,0 +1,59 @@
+
+/*CSS Document*/
+body {
+color: #666666;
+background-color: #f9f8f6;
+background-position: center bottom;
+font-family: Algerian, Times, serif;
+line-height: 1.4em;
+margin: 0px;
+width: 1349px;
+}
+header, section, footer, aside, nav, article, figure, figcaption {display: block;}
+nav, footer {
+clear: both;
+color: #ffffff;
+background-color: #aeaca8;
+height: 30px;}
+nav ul {
+	margin: 0px;
+	padding: 5px 0px 5px 30px;}
+a {
+ text-decoration:none;	
+ cursor:pointer;
+}
+nav li {
+	
+	display: inline;
+	margin-right: 40px;}
+nav li a {
+	color: #ffffff;}
+nav li a:hover, nav li a.current {
+	color: #000000;}
+section, aside {
+	display:inline;
+	margin:0px;
+}
+section{
+	width:1000px;
+	float: left;
+	border-right: 1px solid #eeeeee;}
+article {
+	clear: both;
+	overflow: auto;
+	width: 100%;}
+h3 {
+	margin-top: 40px;}
+figure {
+	float: left;
+	width: 290px;
+	height: 220px;
+	padding: 5px;
+	margin: 20px;
+	border: 1px solid #eeeeee;}
+figcaption {
+	font-size: 90%;
+	text-align: left;}
+div{
+    width:1349px;
+ }

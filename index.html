@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	  <!-- pake hide dan show karena load selalu eror-->
+	<head>
+		<script type="text/javascript" src="jquerry.js"></script>
+		<!--https://ajax.googleapis.com/ajx/libs/jqury/3.2.1/juery.min.js-->
+		<link rel="stylesheet" type="text/css" href="tugastheme.css"></link>
+		<title>UAS P WEB</title>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".tampil").hide();
+				$("#beranda").click(function(){
+				$(".fanart").show()
+				$(".mobil").show();
+				$(".nature2").show();
+				$(".tampil").hide();
+				});
+				$("#fan_art").click(function(){
+				$(".fanart").show()
+				$(".mobil").hide();
+				$(".nature2").hide();
+				$(".tampil").hide();
+				});
+				$("#car").click(function(){
+				$(".mobil").show()
+				$(".nature2").hide();
+				$(".fanart").hide();
+				$(".tampil").hide();
+				});
+				$("#nature").click(function(){
+				$(".nature2").show()
+				$(".mobil").hide();
+				$(".fanart").hide();
+				$(".tampil").hide();
+				});
+				$("#car1").click(function(){
+				$(".tampil").show();
+				$("#tampilcar1").show();
+				$("#tampilcar2").hide();
+				$("#tampil3").hide();
+				$("#tampil4").hide();
+				$("#tampil5").hide();
+				$(".fanart").hide();
+				$(".nature2").hide();
+				$(".mobil").hide();
+				});
+				$("#car2").click(function(){
+				$(".tampil").show();
+				$("#tampilcar2").show();
+				$("#tampilcar1").hide();
+				$("#tampil3").hide();
+				$("#tampil4").hide();
+				$("#tampil5").hide();
+				$(".fanart").hide();
+				$(".nature2").hide();
+				$(".mobil").hide();
+				});
+				$("#fanart1").click(function(){
+				$(".tampil").show();
+				$("#tampil3").show();
+				$("#tampilcar2").hide();
+				$("#tampilcar1").hide();
+				$("#tampil4").hide();
+				$("#tampil5").hide();
+				$(".fanart").hide();
+				$(".nature2").hide();
+				$(".mobil").hide();
+				});
+				$("#fanart2").click(function(){
+				$(".tampil").show();
+				$("#tampil4").show();
+				$("#tampilcar2").hide();
+				$("#tampilcar1").hide();
+				$("#tampil3").hide();
+				$("#tampil5").hide();
+				$(".fanart").hide();
+				$(".nature2").hide();
+				$(".mobil").hide();
+				});
+				$("#nature1").click(function(){
+				$(".tampil").show();
+				$("#tampil5").show();
+				$("#tampilcar2").hide();
+				$("#tampilcar1").hide();
+				$("#tampil4").hide();
+				$("#tampil3").hide();
+				$(".fanart").hide();
+				$(".nature2").hide();
+				$(".mobil").hide();
+				});
+
+
+
+
+			});
+		</script>
+	</head>
+	<body>
+		<header>
+		<a href="index.html"><img src="pictures/seraph.png"></img></a>
+		</header>
+		<div class="menus">
+			<nav><ul><center>
+				<li><a href="#" class="klik" id="beranda">BERANDA</a></li>
+				<li><a class="klik" id="fan_art">FAN ART</a></li>
+				<li><a class="klik" id="car">OTOMOTIVE</a></li>
+				<li><a class="klik" id="nature">NATURE</a></li>
+			</center></ul></nav>
+		</div>
+		<div id="page">
+			<article class="mobil">
+				<figure>
+					<iframe src="https://drive.google.com/file/d/1DytosT2YpdIoMG283K5aXv42FJR0H4Yv/preview" width="290px" height="200px"></iframe>
+				</figure>
+				<h3><a id="car1" href="#">KUMPULAN WALLPAPER MOBIL2 KEREN</a></h3>
+				<p>berisi kumpulan wallpaper mobil  mobil yang keren abis!!!!!</p>
+			</article>
+			<article class="mobil">
+				<figure>
+					<iframe src="https://drive.google.com/file/d/1jCMnSn-G9xGPxxAcHdRu658OowpwZraA/preview" width="290px" height="200px"></iframe>
+				</figure>
+				<h3><a id="car2" href="#">KUMPULAN WALLPAPER MOBIL CAMARO</a></h3>
+				<p>berisi kumpulan wallpaper  mobil camaro yang gahar</p>
+			</article>
+			<article class="fanart">
+				<figure>
+					<iframe src="https://drive.google.com/file/d/1tm-5nBLsLi0yLqFkcs-0A6meWjdHm_Dd/preview" width="290px" height="200px"></iframe>
+				</figure>
+				<h3><a id="fanart1"href="#">KUMPULAN FAN ART NARUTO</a></h3>
+				<p>berisi kumpulan karya-karya dari serial naruto</p>
+			</article>
+			<article class="fanart">
+				<figure>
+					<iframe src="https://drive.google.com/file/d/1aL43NhqdIGIdSim1bMNGfG5NF9UJpfqi/preview" width="290px" height="200px"></iframe>
+				</figure>
+				<h3><a id="fanart2" href="#">KUMPULAN FAN ART ANIME</a></h3>
+				<p>berisi kumpulan karya-karya dari beberapa serial anime dan original karakter</p>
+			</article>
+			<article class="nature2">
+				<figure>
+					<iframe src="https://drive.google.com/file/d/1qvyXD4Gfbw0uiRLb5NxdgRmnHKisoYV9/preview" width="290px" height="200px"></iframe>
+				</figure>
+				<h3><a id="nature1" href="#">KUMPULAN WALLPAPER BERTEMA NATURE</a></h3>
+				<p>berisi kumpulan foto foto dari fotografer profesional</p>
+			</article>
+		</div>
+		<div class="tampil">
+			 <div id="tampilcar1">
+			 	  <iframe src="https://drive.google.com/embeddedfolderview?id=1dLMynToyD2QmUmXDGfNxqAdw_Hm4R0wn#grid" width="1349px" height="500px"></iframe>
+			 </div>
+			 <div id="tampilcar2">
+			 	  <iframe src="https://drive.google.com/embeddedfolderview?id=181vON4kCawG-JF2zx9sSb6OvmBd3l3Yb#grid" width="1349px" height="500px"></iframe>
+			 </div>
+			 <div id="tampil3">
+			 	  <iframe src="https://drive.google.com/embeddedfolderview?id=1-QYK85zqPZLfyf39TqI_nOZp8vEQvdNd#grid" width="1349px" height="500px"></iframe>
+			 </div>
+			 <div id="tampil4">
+			 	  <iframe src="https://drive.google.com/embeddedfolderview?id=1nlMDuglFO4659r3LpqM3gBq-QKWgYPNp#grid" width="1349px" height="500px"></iframe>
+			 </div>
+			 <div id="tampil5">
+			 	  <iframe src="https://drive.google.com/embeddedfolderview?id=1U7Y-FSgi8HSmiLxm8naUwhHtLLDF85Ny#grid" width="1349px" height="500px"></iframe>
+			 </div>
+		</div>
+		<footer>
+			&copy;AHMAD SETIYANTO
+		</footer>
+	</body>
+</html>	
